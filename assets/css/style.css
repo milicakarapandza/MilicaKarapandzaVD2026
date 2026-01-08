@@ -1,0 +1,192 @@
+body
+{
+	background-color:#452829;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+h1{
+	font-size: 30px;
+	color: #F3E8DF;
+	text-shadow: 1px 1px 1px grey;
+	text-align: center;
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #57595B;
+   color: #F3E8DF;
+   text-align: center;
+}
+
+.button {
+  background-color: #57595B;
+  border: none;
+  color: #F3E8DF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid #E8D1C5;
+  width:250px;
+  height:250px;
+}
+
+p{
+	font-size: 20px;
+	color: #F3E8DF;
+	text-align:justify;
+	padding: 0 10px;
+}
+
+.dropbtn {
+  background-color: #57595B;
+  color: #F3E8DF;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  margin-left:10px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #F3E8DF;
+  color: #452829;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #F3E8DF;
+  color: #452829;
+  font-weight: bold;
+}
+
+.index1 img{
+	width:98%;
+	margin: 10px;
+	height:auto;
+	border: 1px solid #F3E8DF;
+	border-radius:0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  font-weight:bold;
+}
+
+.form-container h2{
+	color:#452829;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #452829;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+h2{
+	color: #E8D1C5;
+	text-shadow: 1px 1px 1px grey;
+}
+
+.animacija {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: slideDown 0.8s ease-out forwards;
+}
+
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

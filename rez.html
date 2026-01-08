@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<title>Rezervacija</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<h1>GODIŠNJI ODMOR</h1>
+	<center>
+		<a class="button" href="galerija.html">Galerija</a>
+		<a class="button" href="index.html">Početna</a>
+		<a class="button" href="rez.html">Rezervacija</a>
+	
+	
+	<br><br><br>
+
+  <div class="form-container">
+    <h2>Check-in podaci</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="location">Lokacija</label>
+        <select id="location" required>
+          <option value="">Izaberite lokaciju</option>
+          <option>Dolomiti</option>
+          <option>Išgl</option>
+          <option>Kranjska Gora</option>
+          <option>Skopelos</option>
+		  <option>Tara</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="date-from">Datum od</label>
+          <input type="date" id="date-from" required>
+        </div>
+
+        <div class="form-group">
+          <label for="date-to">Datum do</label>
+          <input type="date" id="date-to" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="first-name">Ime</label>
+          <input type="text" id="first-name" placeholder="Unesite ime" required>
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Prezime</label>
+          <input type="text" id="last-name" placeholder="Unesite prezime" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email adresa</label>
+        <input type="email" id="email" placeholder="example@email.com" required>
+      </div>
+
+      <div class="form-group">
+        <label>Način plaćanja</label>
+        <div class="radio-group">
+          <label><input type="radio" name="payment" required> Kartica</label>
+          <label><input type="radio" name="payment"> Gotovina</label>
+          <label><input type="radio" name="payment"> Online uplata</label>
+        </div>
+      </div>
+
+      <button type="submit">Dalje</button>
+    </form>
+  </div>
+  
+	<footer>® 2026 Milica Karapandza VD50/24</footer>
+
+
+</body>
+</html>
