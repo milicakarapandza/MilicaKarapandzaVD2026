@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/img/
+
+sitemap:https://milicakarapandza.github.io/MilicaKarapandzaVD2026/sitemap.xml
