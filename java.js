@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 let lokacije = ["Dolomiti", "Išgl", "Kranjska Gora", "Skopelos", "Tara"];
 
 function brojDana(od, doo) {
