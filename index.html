@@ -12,6 +12,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
 	<div style="text-align: center;">
 	<h1>GODIŠNJI ODMOR</h1>
 		<a class="button" href="galerija.html">Galerija</a>
@@ -39,7 +48,12 @@
 			<a href="https://youtu.be/PXwd0O2UuOU?si=P0cz76XLxMqbmvcs" target="_blank">Tara</a>
 			</div>
 	</div>
-	
+
+		<div class="fb-share-button"
+data-href="https://www.your-domain.com/your-page.html"
+data-layout="button_count">
+</div>
+
 	
 	<div class="index1">
 		<img src="assets/img/mapa.png" alt="Mapa koja prikazuje ponudjene lokacije">
